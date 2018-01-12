@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
- 
-  "name": "Modify CSS and HTML",
-  "version": "0.1.0",
-  "description": "Lateral blog post demo extension",
- 
-  "content_scripts": [{
-    "js": ["content.js"],
-    "matches": ["https://www.google.com/imghp?hl=es"]
-  }]
- 
+  "name": "YoSoyProgramador",
+  "version": "1.0",
+  "description": "YoSoyProgramador",
+  "content_scripts":
+  [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
 }
-
