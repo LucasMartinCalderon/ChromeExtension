@@ -1,4 +1,5 @@
-var images = document.getElementsByTagName('img');
-for (var i = 0, l = images.length; i < l; i++) {
-  images[i].src = 'https://i.ytimg.com/vi/ZeEpFUAx4ug/maxresdefault.jpg' + images[i].width + '/' + images[i].height;
+var images = document.getElementsByTagName('img'), i;
+
+for (i = 0; i < images.length; i++) {
+  images[i].src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1UjpzmJcRg0ZHL5W6iEtFjwjK5ok8BhKjOmrvvEnCj3xm2Z5jHg';
 }
